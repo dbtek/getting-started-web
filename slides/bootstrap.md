@@ -4,4 +4,4 @@
 
 Mobile first, responsive frontend framework.
 
-It's all about [getbootstrap.com](getbootstrap.com)
+It's all about [getbootstrap.com](http://getbootstrap.com)

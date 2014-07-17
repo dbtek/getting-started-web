@@ -1,5 +1,5 @@
 ##Getting Started with Web Development
-Bootstrap, Responsivity, HTML5, Bower, Yeoman.
+HTML5, Bootstrap, Responsivity, Package Management, Scaffolding.
 
 <br/>
 
