@@ -1,4 +1,6 @@
-##Content
+##Frontend Development
+
+Web development concepts for modern web apps.
 
 * HTML5
 * Bootstrap
