@@ -6,7 +6,7 @@
 * Package Management
 * CoffeeScript
 * Task Automation
-* Scaffolding.
+* Scaffolding
 
 <br/>
 
