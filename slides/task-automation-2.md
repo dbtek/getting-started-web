@@ -6,7 +6,7 @@
 
 
 <pre>
-index.html
+src/index.html
 <code>
 &lt;!-- build:js js/app.js --&gt;
 &lt;script src="js/app.js"&gt;&lt;/script&gt;
@@ -14,5 +14,11 @@ index.html
 &lt;script src="js/models/thing-model.js"&gt;&lt;/script&gt;
 &lt;script src="js/views/thing-view.js"&gt;&lt;/script&gt;
 &lt;!-- endbuild --&gt;
+</code>
+</pre>
+<pre>
+dist/index.html
+<code>
+&lt;script src="scripts/95e0c01f.app.js"&gt;&lt;/script&gt;
 </code>
 </pre>
