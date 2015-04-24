@@ -4,4 +4,4 @@
 
 <img src="http://bower.io/img/bower-logo.png" width="80" height="80"/>
 
-Install, update and manage packages (Bootstrap, JQuery).
+Install, update and manage packages.
