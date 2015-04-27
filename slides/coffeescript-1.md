@@ -1,32 +1,31 @@
 ![CoffeeScript](http://coffeescript.org/documentation/images/logo.png)
+```
+###*
+ # @ngdoc controller
+ # @name esefpy.web.dashboard.controllers:DashboardExportCtrl
+ # @description
+ # Export modal window controller for dashboard.
+###
+angular.module "esefpy.web.dashboard"
+  .controller "DashboardExportCtrl", ($scope, $log) ->
 
-```js
-# Assignment:
-number   = 42
-opposite = true
+    $scope.fieldsCollapsed = true
 
-# Conditions:
-number = -42 if opposite
+    return
+```
 
-# Functions:
-square = (x) -> x * x
+Compiled Javascript
+```
+/**
+ * @ngdoc controller
+ * @name esefpy.web.dashboard.controllers:DashboardExportCtrl
+ * @description
+ * Export modal window controller for dashboard.
+ */
+(function() {
+  angular.module("esefpy.web.dashboard").controller("DashboardExportCtrl", function($scope, $log) {
+    $scope.fieldsCollapsed = true;
+  });
 
-# Arrays:
-list = [1, 2, 3, 4, 5]
-
-# Objects:
-math =
-  root:   Math.sqrt
-  square: square
-  cube:   (x) -> x * square x
-
-# Splats:
-race = (winner, runners...) ->
-  print winner, runners
-
-# Existence:
-alert "I knew it!" if elvis?
-
-# Array comprehensions:
-cubes = (math.cube num for num in list)
+}).call(this);
 ```
